@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost/sklep?useSSL=false
+    username: root
+    jpa:
+      properties:
+        hibernate:
+          dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+      hibernate:
+        ddl-auto: update
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            clientId: 439721155552-o24s16pl7kfu939d5bqnmplmk59lfars.apps.googleusercontent.com
+            clientSecret: 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

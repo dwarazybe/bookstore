@@ -1,0 +1,47 @@
+.filters {
+    background-color: #152D35;
+    color: #F6F7EB;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    margin: 10px;
+    height: 86vh;
+    float: left;
+}
+
+.filters div {
+    padding-bottom: 20px;
+}
+
+.title {
+    font-size: 25px;
+}
+
+.summary {
+    background-color: #152D35;
+    color: #F6F7EB;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 10px;
+    height: 86vh;
+    float: right;
+}
+
+@media (max-width: 771px) {
+    .filters {
+        width: 40%;
+        padding: 10px;
+        margin: 5px;
+    }
+
+    .filters > div {
+        font-size: 10px;
+    }
+
+    .title {
+        font-size: 18px !important;
+    }
+}

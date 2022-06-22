@@ -1,0 +1,29 @@
+.add_produkt {
+    display: flex;
+    height: 90vh;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #ffffff;
+
+}
+
+.form_add{
+    display: block;
+    position: relative;
+}
+
+.kontener {
+    position: relative;
+    padding: 20px;
+}
+
+.input_add {
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    transition: 0.4s;
+}

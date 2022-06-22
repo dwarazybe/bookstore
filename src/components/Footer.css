@@ -1,0 +1,19 @@
+.footer{
+    position: fixed;
+    padding: 10px 10px 0 10px;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background: #152D35;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.footer a:hover {
+    color: #D4ECDD;
+}
